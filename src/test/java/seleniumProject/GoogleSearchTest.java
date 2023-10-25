@@ -13,6 +13,7 @@ public class GoogleSearchTest {
 		driver.get("https://www.google.com/");
 		
 		driver.findElement(By.id("APjFqb")).sendKeys("selenium");
+		driver.getTitle();
 
 	}
 
